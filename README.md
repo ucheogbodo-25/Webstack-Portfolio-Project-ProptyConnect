@@ -31,4 +31,4 @@ The ALX Software Engineering programme is a 12-month immersive programme that en
 
 AUTHORS
 
-* Uchechukwu Ogbodo **[Github](https://github.com/ucheogbodo-25)** 
+* Uchechukwu Cyril Ogbodo **[Github](https://github.com/ucheogbodo-25)** 
