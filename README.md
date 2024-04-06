@@ -1,5 +1,5 @@
 # ProptyConnect
-![ProptyConnect](https://github.com/ucheogbodo-25/Webstack-Portfolio-Project/blob/main/welcome.png)
+![ProptyConnect](https://github.com/ucheogbodo-25/Webstack-Portfolio-Project/blob/main/)
 
 `Group project` `Web Portfolio project`
 
