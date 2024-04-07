@@ -17,7 +17,7 @@ const Team = (props) => {
       <div className="flex flex-col justify-center  px-10 md:px-16 xl:px-[180px] sm:grid sm:grid-cols-2  lg:grid-cols-4 gap-10">
         <div className="TeamImageBox text-center">
           <div className="bg-zinc-800 rounded-full rounded-br-none w-[220px] inline-block h-[220px] mr-2 overflow-hidden">
-            <img className="w-full object-cover" src={Zeliq} alt="Zeliq"></img>
+            <img className="w-full object-cover" src={ENEH} alt="ENEH"></img>
           </div>
           <div className="inline-block">
             <h5 className="text-[24px] sm:text-[20px]">Zelipha U</h5>
@@ -30,7 +30,7 @@ const Team = (props) => {
         </div>
         <div className="TeamImageBox text-center">
           <div className="bg-zinc-800 rounded-full rounded-br-none w-[220px] inline-block h-[220px] mr-2 overflow-hidden">
-            <img className="w-full object-cover" src={Robert} alt="Robert"></img>
+            <img className="w-full object-cover" src={AMAKA} alt="AMAKA"></img>
           </div>
           <div className="inline-block">
             <h5 className="text-[24px] sm:text-[20px]">Rob A</h5>
@@ -43,7 +43,7 @@ const Team = (props) => {
         </div>
         <div className="TeamImageBox text-center">
           <div className="bg-zinc-800 rounded-full rounded-br-none w-[220px] inline-block h-[220px] mr-2 overflow-hidden">
-            <img className="w-full object-cover" src={Milly} alt="Milly"></img>
+            <img className="w-full object-cover" src={IFY} alt="IFY"></img>
           </div>
           <div className="inline-block">
             <h5 className="text-[24px] sm:text-[20px]">Mildred A</h5>
@@ -56,7 +56,7 @@ const Team = (props) => {
         </div>
         <div className="TeamImageBox text-center">
           <div className="bg-zinc-800 rounded-full rounded-br-none w-[220px] inline-block h-[220px] mr-2 overflow-hidden">
-            <img className="w-full object-cover" src={Emma} alt="Emma"></img>
+            <img className="w-full object-cover" src={UCHE} alt="UCHE"></img>
           </div>
           <div className="inline-block">
             <h5 className="text-[24px] sm:text-[20px]">Emma A</h5>
