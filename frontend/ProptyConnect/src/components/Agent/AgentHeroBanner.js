@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import UCHE from "../../assets/UCHE.jpg";
+import UCHE from "../../assets/UCHE.JPG";
 import { NavLink } from "react-router-dom";
 import MoreProperty from "../Property/MoreProperty";
 import ListPropertyForm from "../Templates/ListPropertyForm";
