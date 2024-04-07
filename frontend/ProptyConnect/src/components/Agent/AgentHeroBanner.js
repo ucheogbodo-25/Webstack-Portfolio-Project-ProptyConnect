@@ -51,8 +51,8 @@ const AgentHeroBanner = (props) => {
               <div className="img-wrap overflow-hidden bg-zinc-700 rounded-[100px] rounded-tr-none md:w-[90%] md:ml-auto relative">
                 <img
                   className="w-full h-[70vh] object-cover"
-                  src={Zeliq}
-                  alt="Zeliq"
+                  src={ENEH}
+                  alt="ENEH"
                 />
               </div>
               <div className="absolute top-[80%]">
