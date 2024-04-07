@@ -23,7 +23,8 @@ function Header() {
       <div className="max-w-[1440px] mx-auto py-6 px-10 flex justify-between">
         <div>
           <NavLink to="/">
-            <img className="h-8 w-70 ml-16" src={logo} alt="Housify logo"></img>
+            <img className="h-8 w-70 ml-16" src={logo} alt="ProptyConnect logo"></img>
+            <span className="text-xl font-bold ml-2">ProptyConnect</span>
           </NavLink>
         </div>
         <div className="hidden lg:flex">
