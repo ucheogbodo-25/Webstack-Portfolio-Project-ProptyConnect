@@ -1,9 +1,9 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaWhatsapp } from "react-icons/fa";
-import UCHE from "../../assets/UCHE.jpeg";
-import IFY from "../../assets/IFY.jpeg";
-import AMAKA from "../../assets/AMAKA.jpeg";
-import ENEH from "../../assets/ENEH.jpg";
+import UCHE from "../../assets/UCHE.JPG";
+import IFY from "../../assets/IFY.JPG";
+import AMAKA from "../../assets/AMAKA.JPG";
+import ENEH from "../../assets/ENEH.JPG";
 
 const Team = (props) => {
   return (
