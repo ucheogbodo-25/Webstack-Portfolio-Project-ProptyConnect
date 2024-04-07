@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../commons/auth";
-import logo from "../../assets/ProptyConnect.png";
+import logo from "../../assets/ProptyConnect.PNG";
 import { NavLink } from "react-router-dom";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
