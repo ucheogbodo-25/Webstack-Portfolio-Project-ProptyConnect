@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/ProptyConnect.png";
+import logo from "../../assets/ProptyConnect.PNG";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
