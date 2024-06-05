@@ -9,7 +9,7 @@ router.post("/users/:id/property", verify, async (req, res) => {
 
     try {
       const savedProperty = await newProperty.save();
-      res.status(201).json(savedList);
+      res.status(201).json(savedProperty);
     } catch (err) {
       res.status(500).json(err);
     }
@@ -19,11 +19,11 @@ router.post("/users/:id/property", verify, async (req, res) => {
 });
 
 //DELETE PROPERTY AS PER AGENT
-router.delete("users/:id/property", verify, async (req, res) => {
-  if (req.users.isAdmin) {
+router.delete("/users/:id/property/:propertyId", verify, async (req, res) => { // Added :propertyId
+  if (req.user.isAdmin) { // Corrected req.user.isAdmin
     try {
-      await Property.findByIdAndDelete(req.params.id);
-      res.status(201).json("The list has been deleted...");
+      await Property.findByIdAndDelete(req.params.propertyId); // Use req.params.propertyId
+      res.status(200).json("The property has been deleted...");
     } catch (err) {
       res.status(500).json(err);
     }
@@ -36,26 +36,25 @@ router.delete("users/:id/property", verify, async (req, res) => {
 router.get("/users/:id/property", verify, async (req, res) => {
   const typeQuery = req.query.type;
   const genreQuery = req.query.genre;
-  //const narationQuery = req.query.narration;
-  let property = [];
+  let properties = [];
 
   try {
     if (typeQuery) {
       if (genreQuery) {
-        property = await Property.aggregate([
+        properties = await Property.aggregate([
           { $sample: { size: 10 } },
           { $match: { type: typeQuery, genre: genreQuery } },
         ]);
       } else {
-        property = await List.aggregate([
+        properties = await Property.aggregate([
           { $sample: { size: 10 } },
           { $match: { type: typeQuery } },
         ]);
       }
     } else {
-      property = await Property.aggregate([{ $sample: { size: 10 } }]);
+      properties = await Property.aggregate([{ $sample: { size: 10 } }]);
     }
-    res.status(200).json(list);
+    res.status(200).json(properties); // Corrected to properties
   } catch (err) {
     res.status(500).json(err);
   }
